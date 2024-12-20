@@ -1,4 +1,4 @@
-// news.html の .post-title に対するアニメーション追加
+// index.html の .post-title に対するアニメーション追加
 // 監視対象が範囲内に現れたら実行する動作
 const showPostTitle = function (entries) {
     entries.forEach((entry) => {
@@ -24,7 +24,7 @@ post_titles.forEach((item) => {
     postTitle_observer.observe(item);
 });
 
-// news.htmlの id="second-section" 部分のJavaScript
+// index.htmlの id="second-section" 部分のJavaScript
 $(function(){
     $('.process-detail').hover(
         function(){
@@ -62,7 +62,7 @@ for (let i = 0; i < elements.length; i++) {
 }
 */
 
-// news.htmlの id="third-section" のスライドショー
+// index.htmlの id="third-section" のスライドショー
 const activity_src = ['images/activity-1.jpg', 'images/activity-2.jpg', 'images/activity-3.jpg'];
 let timer = NaN;
 let num = -1;
@@ -79,7 +79,7 @@ function slideshow () {
 timer = setInterval(slideshow, 2000);
 
 
-// news.htmlの「TOPに戻る」ボタンのコード
+// index.htmlの「TOPに戻る」ボタンのコード
 $(document).ready(function() {
     let pagetop = $('#page-top');
     pagetop.hide();
